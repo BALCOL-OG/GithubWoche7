@@ -2,17 +2,6 @@ package Aufgabe1;
 
 public class Test {
 	
-	
-	
-
-
-	
-	public static void erhoeheGehalt(Mitarbeiter x, double erhoehung){
-
-	}
-	
-	
-	
 
 	public static void main(String[] args){
 		
