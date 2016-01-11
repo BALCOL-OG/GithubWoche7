@@ -41,7 +41,7 @@ public class Mitarbeiter {
 //		else if(x instanceof Manager){
 //			Manager y = (Manager) x;
 //			System.out.println(y.getAbtName());
-//		}
+//		}								//FAIL
 
 	}
 
@@ -51,7 +51,7 @@ public class Mitarbeiter {
 
 	public void erhoeheGehalt(double erhoehung) {
 		if(erhoehung > gehalt*0.1 || erhoehung < 0){
-			System.err.println("Ungültige Erhöhung");
+			System.err.println("UngÃ¼ltige ErhÃ¶hung");
 		}
 		else{
 			gehalt += erhoehung;
